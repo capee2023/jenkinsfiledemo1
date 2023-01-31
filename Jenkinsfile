@@ -13,7 +13,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                 bat 'echo "Testing"'
+                 bat 'call "C:\\Jenkins\\batfiles\\test2.bat"'
             }
         }
     }
